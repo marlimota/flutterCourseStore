@@ -54,7 +54,7 @@ class WebAppBar extends StatelessWidget {
           ElevatedButton(
             onPressed: () {},
             style: ElevatedButton.styleFrom(
-                primary: Colors.white, padding: const EdgeInsets.all(10)),
+                backgroundColor: Colors.white, padding: const EdgeInsets.all(10)),
             child: const Text(
               'Cadastre-se',
               style:

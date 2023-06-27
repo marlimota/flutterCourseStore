@@ -44,11 +44,11 @@ class TopSectionMobile extends StatelessWidget {
           decoration: BoxDecoration(
             color: const Color.fromARGB(245, 247, 245, 245).withOpacity(0.1),
           ),
-          child: Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 16),
+          child: const Padding(
+            padding: EdgeInsets.symmetric(horizontal: 16, vertical: 16),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
-              children: const [
+              children: [
                 Text(
                   'Aprenda Flutter com o melhor conteúdo.',
                   style: TextStyle(
@@ -104,8 +104,8 @@ class TopSectionTablet extends StatelessWidget {
               child: Container(
                 width: 320,
                 padding: const EdgeInsets.all(24),
-                child: Column(
-                  children: const [
+                child: const Column(
+                  children: [
                     Text(
                       'Aprenda Flutter com o melhor conteúdo.',
                       style: TextStyle(
@@ -159,8 +159,8 @@ class TopSectionWeb extends StatelessWidget {
             child: Container(
               width: 420,
               padding: const EdgeInsets.all(24),
-              child: Column(
-                children: const [
+              child: const Column(
+                children: [
                   Text(
                     'Aprenda Flutter com o melhor conteúdo.',
                     style: TextStyle(
